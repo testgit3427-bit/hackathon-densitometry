@@ -1,0 +1,49 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist-packages/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# --- Виртуальное окружение ---
+.venv/
+venv/
+env/
+
+# --- Node.js / фронтенд ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# --- Данные (датасет DICOM для обучения, разметка, тестовые файлы) ---
+data/
+*.dcm
+
+# --- Логи и временные файлы бэкенда ---
+backend/logs/
+backend/uploads/
+*.log
+
+# --- IDE и ОС ---
+.idea/
+.vscode/
+*.suo
+*.user
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Локальная конфигурация ---
+.env
+.env.*
+!.env.example
+
+# --- Локальные артефакты инструментов (не конфиг проекта) ---
+.opencode/
+.anthropic/

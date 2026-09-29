@@ -1,0 +1,7 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydicom>=2.4,<3.2
+numpy>=1.26
+Pillow>=10.3
+requests>=2.32
+python-multipart>=0.0.9
